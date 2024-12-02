@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskMaster | Register</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+   <!-- Register Section -->
+   <section id="register" class="flex items-center justify-center min-h-screen bg-gray-200">
+    <div class="max-w-md p-6 bg-white rounded-lg shadow-lg">
+      <h2 class="mb-4 text-2xl font-bold text-center">Register</h2>
+      <form  id="register-form" class="register-form" class="register-form">
+        <input type="text" placeholder="Username" class="w-full p-3 mb-4 border rounded-md" required id="username">
+        <input type="email" placeholder="Email" class="w-full p-3 mb-4 border rounded-md" id="email" required>
+        <input type="password" placeholder="Password" class="w-full p-3 mb-6 border rounded-md" id="password" required>
+        <button type="submit" class="w-full p-3 text-white bg-blue-600 rounded-md">Create Account</button>
+      </form>
+
+      <p class="mt-4 text-center">
+        Already have an account? <a href="login.html" class="text-blue-600">Login here</a>
+      </p>
+    </div>
+  </section>
+
+  <script src="register.js"></script>
+</body>
+</html>
